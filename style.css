@@ -1,0 +1,198 @@
+:root {
+    --amarelo-logo: #717a78;
+    --vermelho-logo: #ffffff;
+}
+
+.home {
+    overflow: hidden;
+}
+
+.header {
+    height: 80px;   
+    --amarelo-logo: #717a78;
+    background-color: #328f7b;
+}
+
+.logo-header {
+    height: 80px;
+    cursor: pointer;
+}
+
+.logo-footer {
+    height: 80px;
+    float: right;
+    padding-right: 4.5rem;
+}
+
+#icon-search {
+    height: 30px;
+    padding-top: 5px;
+}
+
+#search-addon button {
+    float: right;
+    padding: 7px 10px;
+    margin-right: 16px;
+    background: var(--vermelho-logo);
+    color: black;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+
+#lancamentos {
+    background-color:#f4f4f4;
+}
+
+.titulo-lancamentos {
+    text-align: center;
+}
+
+.titulo {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.detalhes-lancamentos {
+    padding-right: 4rem;
+}
+
+#makingof {
+    background-color:#f4f4f4;
+}
+
+.frame-video-makingof {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+.imagem-novidades {
+    height: fit-content;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 4.5rem;
+    background-color:#f4f4f4;
+    height: 80px;
+    line-height: 80px;;
+}
+
+.botao-menu:link {
+    font-style: normal;
+    color: var(--vermelho-logo);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao-menu:visited {
+    color: var(--vermelho-logo);
+}
+
+.botao-menu:active {
+    color: var(--vermelho-logo);
+}
+
+.botao-menu:hover {
+    color: black;
+    border-right-color: var(--vermelho-logo);
+}
+
+.menu-border {
+    border-right-style: solid;
+    border-right-width: unset;
+    padding-right: 0.25rem;
+}
+
+.botao-dropdown {
+    float: right;
+}
+
+.popular-div {
+    text-align: center;
+}
+
+#popular-title:hover {
+    color: var(--vermelho-logo);
+    cursor: pointer;
+}
+
+#popular-img, #popular-description, #popular-release, #popular-date {
+    cursor: pointer;
+}
+
+.botao-ver-mais {
+    color: var(--amarelo-logo);
+    background-color: black;
+    float: right;
+    font-weight: bold;
+}
+.botao-ver-mais:hover {
+    color: black;
+    background-color: var(--amarelo-logo);
+}
+.botao-ver-mais:active {
+    color: black;
+    background-color: var(--amarelo-logo);
+}
+
+#search-content {
+    margin-right: 25px;
+}
+
+.titulo-busca:hover {
+    color: var(--vermelho-logo);
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#popular-timer {
+    margin-left: 100px;
+    margin-right: 140px;
+}
+
+@media (min-width: 576px) and (max-width: 767px){    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+}
+@media (min-width: 1200px){
+}
+
+/* loader */
+
+.round-time-bar {
+    margin: 1rem;
+    overflow: hidden;
+  }
+  .round-time-bar div {
+    height: 5px;
+    animation: roundtime calc(var(--duration) * 1s) steps(var(--duration))
+      forwards;
+    transform-origin: left center;
+    background: linear-gradient(to bottom, var(--amarelo-logo), var(--amarelo-logo));
+  }
+  
+  .round-time-bar[data-style="smooth"] div {
+    animation: roundtime calc(var(--duration) * 1s) linear forwards;
+  }
+  
+  @keyframes roundtime {
+    to {
+      /* More performant than `width` */
+      transform: scaleX(0);
+    }
+  }
