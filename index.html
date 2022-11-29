@@ -13,8 +13,8 @@
 <body>
     <div class="home">
         <div class="row header ps-3 pe-3">
-            <div class="col-3">
-                <img class="logo-header" src="..\PortalFilmes\img/logo.png" alt="Filmorama_LOGO" onclick="hideSearch()">
+            <div class="col-3" >
+                
             </div>
             <div class="col-3 col-sm-2 d-inline d-sm-none mt-3">
                 <div class="dropdown">
@@ -24,19 +24,19 @@
                       Menu
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#" onclick="hideSearch()">lançamentos</a>
-                      <a class="dropdown-item" href="#" onclick="hideSearch()">em destaque</a>
-                      <a class="dropdown-item" href="#" onclick="hideSearch()">entrevistas & makingof</a>
-                      <a class="dropdown-item" href="#" onclick="hideSearch()">novidades</a>
+                      <a class="dropdown-item" href="#" onclick="hideSearch()"> Lançamentos</a>
+                      <a class="dropdown-item" href="#" onclick="hideSearch()"> Em destaque</a>
+                      <a class="dropdown-item" href="#" onclick="hideSearch()"> Entrevistas & Makingof</a>
+                      <a class="dropdown-item" href="#" onclick="hideSearch()"> Novidades</a>
                     </div>
                   </div>
             </div>
             <div class="col-lg-7 col-5 col-md-6 mt-4 d-none d-sm-inline">
-                <a class="link-nav-desktop botao-menu menu-border" href="#" onclick="hideSearch()">lançamentos</a>
-                <a class="link-nav-desktop botao-menu menu-border d-md-inline d-none" href="#" onclick="hideSearch()">em destaque</a>
-                <a class="link-nav-desktop botao-menu menu-border d-lg-inline d-none" href="#" onclick="hideSearch()">avaliações</a>
-                <a class="link-nav-desktop botao-menu menu-border d-xl-inline d-none" href="#" onclick="hideSearch()">entrevistas & makingof</a>
-                <a class="link-nav-desktop botao-menu" href="#">novidades</a>
+                <a class="link-nav-desktop botao-menu menu-border" href="#" onclick="hideSearch()">Lançamentos</a>
+                <a class="link-nav-desktop botao-menu menu-border d-md-inline d-none" href="#" onclick="hideSearch()">Em destaque</a>
+                <a class="link-nav-desktop botao-menu menu-border d-lg-inline d-none" href="#" onclick="hideSearch()">Avaliações</a>
+                <a class="link-nav-desktop botao-menu menu-border d-xl-inline d-none" href="#" onclick="hideSearch()">Entrevistas & Makingof</a>
+                <a class="link-nav-desktop botao-menu" href="#">Novidades</a>
             </div>
             <div class="rounded col-lg-2 col-md-3 col-6 col-sm-4 mt-3">
                 <div class="row">
@@ -100,9 +100,7 @@
                 <div class="d-none d-lg-inline col-lg-3 pt-4 pb-4">
                     <img class="cartaz-destaque w-100" src="https://capas-m.imagemfilmes.com.br/164857_000_m.jpg">
                 </div>
-                <div class="col-12">
-                    <button class="btn botao-ver-mais">+ Carregar Mais Filmes</button>
-                </div>
+                
             </div>
         </div>
         <div id="container-avaliacoes home-switch" class="container home-switch">
@@ -153,9 +151,7 @@
                         </span>
                     </div>
                 </div>
-              <!---->  <div class="col-12 pt-4">
-                    <button class="btn botao-ver-mais">+ Carregar Mais Filmes</button>
-                </div> -->
+           
             </div>
         </div>
         <div id="makingof home-switch" class="home-switch">
@@ -164,7 +160,7 @@
                     <div class="col-12 titulo">
                         <h1>Entrevistas e Making of</h1>
                     </div>
-                    <div class="col row">
+                    <div class="col row d-none d-md-inline">
                         <div class="video-makingof col-12">
                             <iframe src="https://www.youtube.com/embed/6_-Sgiir3tI" title="YouTube video player"
                                 frameborder="0"
@@ -176,7 +172,8 @@
                         <div class="col-md-12 col-lg-8 col-xl-8"><b>Roteiro:</b>Jac Schaeffer & Ned Benson</div>
                         <div class="col-md-12 col-lg-4 col-xl-4"><b>Estreia:</b>2021</div>
                     </div>
-                    <div class="col row">
+
+                    <div class="col row d-none d-md-inline">
                         <div class="video-makingof col-12">
                             <iframe src="https://www.youtube.com/embed/1A_a_xkSEV4" title="YouTube video player"
                                 frameborder="0"
@@ -188,6 +185,7 @@
                         <div class="col-md-12 col-lg-8 col-xl-8"><b>Roteiro:</b> William Moulton</div>
                         <div class="col-md-12 col-lg-4 col-xl-4"><b>Estreia:</b>2017</div>
                     </div>
+
                     <div class="col row d-none d-md-inline">
                         <div class="video-makingof col-12">
                             <iframe src="https://www.youtube.com/embed/nM4iy0reaCA" title="YouTube video player"
@@ -200,9 +198,7 @@
                         <div class="col-md-12 col-lg-8 col-xl-8"><b>Roteiro:</b>Taylor Materne </div>
                         <div class="col-md-12 col-lg-4 col-xl-4"><b>Estreia:</b>2022</div>
                     </div>
-                    <div class="col-12 pt-5">
-                        <button class="btn botao-ver-mais">+ Carregar Mais Filmes</button>
-                    </div>
+                  
                 </div>
             </div>
         </div>
@@ -255,19 +251,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                <!--    <div id="sobre">
-                        <h2 class="titulo">Sobre</h2>
-                        <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenean ante massa, blandit id diam non, laoreet mollis ipsum.
-                            Morbi eu viverra leo. Sed non nulla ligula. Morbi eget ultrices dolor.
-                            In aliquam dolor in turpis porta, ultrices laoreet lorem hendrerit.
-                            Aliquam quis mauris egestas, consequat dolor eget, cursus magna.
-                            Nullam auctor, ex et condimentum facilisis, ipsum sapien auctor odio, vel eleifend diam nunc
-                            sit amet purus.
-                            Morbi interdum nisl sit amet turpis venenatis dignissim.
-                        </span>
-                    -->
+               
                     </div>
                     <div id="editorial">
                         <h2 class="titulo pt-5">Editorial</h2>
@@ -284,15 +268,7 @@
                             <span><b>Gerente Geral:</b> Jean Machado</span>
                         </div>
                     </div>
-                    <div id="redes">
-                        <h4 class="titulo pt-5">Redes sociais</h4>
-                        <img src="https://img.icons8.com/android/48/000000/facebook.png" />
-                        <img class="ps-3" src="https://img.icons8.com/android/48/000000/twitter.png" />
-                        <img class="ps-3" src="https://img.icons8.com/android/48/000000/instagram.png" />
-                        <a href="https://www.instagram.com/__jean__machado/ "><i class="fab fa-instagram instagram"></i></a>
-                        <img class="ps-3" src="https://img.icons8.com/android/48/000000/linkedin.png" />
-                       
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -303,6 +279,7 @@
             </span>
            
         </div>
+
     </div>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

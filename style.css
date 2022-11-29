@@ -7,11 +7,28 @@
     overflow: hidden;
 }
 
-.header {
-    height: 80px;   
-    --amarelo-logo: #717a78;
+
+/* @media (max-width:450px){
+    
+[titulo]{
+    font-size: 100%;
+    border-right-style: solid;
+    border-right-width: unset;
+    padding-right: 0.25rem;
+    height: auto;   
+    color: #fff;
     background-color: #328f7b;
 }
+} */
+.header {
+    border-right-style: solid;
+    border-right-width: unset;
+    padding-right: 0.25rem;
+    height: auto;   
+    color: #fff;
+    background-color: #328f7b;
+}
+
 
 .logo-header {
     height: 80px;
